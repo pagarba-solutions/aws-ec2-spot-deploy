@@ -3,7 +3,7 @@ import shutil
 
 from bentoctl.exceptions import TemplateExists, TemplateTypeNotDefined
 
-from bentoctl_aws_ec2.values import DeploymentValues
+from bentoctl_aws_ec2_spot.values import DeploymentValues
 
 TERRAFORM_TEMPLATE_FILE_NAME = "main.tf"
 TEMPLATE_FOLDER = os.path.join(os.path.dirname(__file__), "templates")

@@ -9,9 +9,11 @@ from classifier import TestService
 from pandas import DataFrame
 
 sys.path.append("./")
-from bentoctl_aws_ec2.delete import delete
-from bentoctl_aws_ec2.deploy import deploy
-from bentoctl_aws_ec2.describe import describe
+from bentoctl_aws_ec2_spot.delete import delete
+from bentoctl_aws_ec2_spot.deploy import deploy
+from bentoctl_aws_ec2_spot.describe import describe
+
+
 
 
 class Setup:
