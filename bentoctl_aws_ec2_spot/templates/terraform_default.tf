@@ -181,7 +181,7 @@ resource "aws_launch_template" "lt" {
   instance_market_options {
     market_type = "spot"
     spot_options {
-      max_price = 5
+      max_price = 10
     }
   }
 
